@@ -14,6 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 ### Fixed
 
+## [0.0.3] - 2022-04-12
+### Added
+- 1 extension
+### Changed
+- README (to include list of extensions)
+
 ## [0.0.2] - 2022-04-12
 ### Changed
 - CircleCI config (so that only tags trigger a pipeline)
@@ -25,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - .editorconfig
 - License
 
-[Unreleased]: https://github.com/NdagiStanley/remote-ext-pack/compare/v0.0.2...HEAD
+[Unreleased]: https://github.com/NdagiStanley/remote-ext-pack/compare/v0.0.3...HEAD
+[0.0.3]: https://github.com/NdagiStanley/remote-ext-pack/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/NdagiStanley/remote-ext-pack/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/NdagiStanley/remote-ext-pack/releases/tag/v0.0.1
