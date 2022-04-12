@@ -11,4 +11,9 @@ workflows:
   version: 2
   setup-publish:
     jobs:
-      - publish
+      - publish:
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/
