@@ -1,0 +1,14 @@
+version: 2.1
+jobs:
+  publish:
+    docker:
+      - image: cimg/node:17.8.0
+    steps:
+      - checkout
+      - run: npm install -g vsce && vsce publish -p $PAT
+
+workflows:
+  version: 2
+  setup-publish:
+    jobs:
+      - publish
