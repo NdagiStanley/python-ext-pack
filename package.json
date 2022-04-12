@@ -1,0 +1,18 @@
+{
+    "name": "python-ext-pack",
+    "displayName": "Python Ext Pack",
+    "description": "An extension pack for Python projects",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers"
+    ]
+}
