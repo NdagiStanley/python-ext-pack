@@ -7,6 +7,8 @@
 
 An extension pack for Python projects
 
+The `vsix` files can be downloaded [here](https://marketplace.visualstudio.com/items?itemName=NdagiStanley.python-ext-pack&ssr=false#version-history)
+
 ## Extensions Included (5)
 
 - [Python][python] - IntelliSense (Pylance), Linting, Debugging (multi-threaded, remote), Jupyter Notebooks, code formatting, refactoring, unit tests, and more.
