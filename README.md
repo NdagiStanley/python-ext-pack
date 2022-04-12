@@ -15,13 +15,8 @@ An extension pack for Python projects
 - [Jupyter Notebook Renderers][renderers] - Renderers for Jupyter Notebooks (with plotly, vega, gif, png, svg, jpeg and other such outputs)
 - [Python Indent][indent] - Correct python indentation.
 
-## Release Notes
-
-See the [CHANGELOG][log].
-
 [python]: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 [pylance]: https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
 [jupyter]: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
 [renderers]: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-renderers
 [indent]: https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent
-[log]: /CHANGELOG.md

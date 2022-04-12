@@ -2,7 +2,7 @@
     "name": "python-ext-pack",
     "displayName": "Python Ext Pack",
     "description": "An extension pack for Python projects",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "ndagistanley",
     "repository": {
       "type": "git",
@@ -16,10 +16,10 @@
     ],
     "icon": "images/icon.png",
     "extensionPack": [
+        "KevinRose.vsc-python-indent",
         "ms-python.python",
         "ms-python.vscode-pylance",
         "ms-toolsai.jupyter-keymap",
-        "ms-toolsai.jupyter-renderers",
-        "KevinRose.vsc-python-indent"
+        "ms-toolsai.jupyter-renderers"
     ]
 }
