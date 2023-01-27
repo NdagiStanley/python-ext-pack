@@ -1,24 +1,30 @@
 # python-ext-pack
 
-![Version](https://vsmarketplacebadge.apphb.com/version/NdagiStanley.python-ext-pack.svg)
-![Stars](https://vsmarketplacebadge.apphb.com/rating-star/NdagiStanley.python-ext-pack.svg)
-![Downloads](https://vsmarketplacebadge.apphb.com/downloads/NdagiStanley.python-ext-pack.svg)
-![Installs](https://vsmarketplacebadge.apphb.com/installs/NdagiStanley.python-ext-pack.svg)
-
 An extension pack for Python projects
 
 The `vsix` files can be downloaded [here](https://marketplace.visualstudio.com/items?itemName=NdagiStanley.python-ext-pack&ssr=false#version-history)
 
-## Extensions Included (5)
+## Developer
 
-- [Python][python] - IntelliSense (Pylance), Linting, Debugging (multi-threaded, remote), Jupyter Notebooks, code formatting, refactoring, unit tests, and more.
-- [Pylance][pylance] - A performant, feature-rich language server for Python in VS Code
-- [Jupyter][jupyter] - Jupyter notebook support, interactive programming and computing that supports Intellisense, debugging and more.
-- [Jupyter Notebook Renderers][renderers] - Renderers for Jupyter Notebooks (with plotly, vega, gif, png, svg, jpeg and other such outputs)
-- [Python Indent][indent] - Correct python indentation.
+### Updating process
 
-[python]: https://marketplace.visualstudio.com/items?itemName=ms-python.python
-[pylance]: https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
-[jupyter]: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
-[renderers]: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-renderers
-[indent]: https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent
+1. Make changes
+2. Commit changes
+3. Update `CHANGELOG.md`
+4. Update version in `package.json` (Format: `v<major>.<minor>.<patch>`)
+5. Commit changes
+6. Tag commit (Format: `v<major>.<minor>.<patch>`)
+7. Push commits to remote
+8. Push tag to remote (`git push origin <tag name>`)
+
+### Undo
+
+Delete tags:
+
+- local tag - `git tag -d <tag name>`
+- remote tag - `git push -d origin <tag name>`
+
+Unpublish:
+
+- Extension version - Use the [web](https://marketplace.visualstudio.com/manage/publishers/ndagiSTANLEY)
+- Extension - `vsce unpublish (publisher name).(extension name)`

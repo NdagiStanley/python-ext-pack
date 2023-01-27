@@ -2,7 +2,7 @@
     "name": "python-ext-pack",
     "displayName": "Python Ext Pack",
     "description": "An extension pack for Python projects",
-    "version": "0.0.4",
+    "version": "0.0.6",
     "publisher": "ndagistanley",
     "repository": {
       "type": "git",
