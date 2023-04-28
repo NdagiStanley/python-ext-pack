@@ -16,13 +16,12 @@
     ],
     "icon": "images/icon.png",
     "extensionPack": [
+        "ms-toolsai.jupyter",
         "batisteo.vscode-django",
         "KevinRose.vsc-python-indent",
         "ms-python.black-formatter",
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "ms-toolsai.jupyter-keymap",
-        "ms-toolsai.jupyter-renderers",
         "njpwerner.autodocstring",
         "VisualStudioExptTeam.vscodeintellicode",
         "wholroyd.jinja"
